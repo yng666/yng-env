@@ -1,0 +1,20 @@
+{
+    "name": "yng/env",
+    "license": "Apache-2.0",
+    "description": "A simple environment variable management tool.",
+    "homepage": "https://www.chinaqe.cn",
+    "authors": [
+        {
+            "name": "yng",
+            "homepage": "https://www.chinaqe.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yng\\Env\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
